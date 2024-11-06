@@ -41,7 +41,7 @@ public class Program {
         seller = sellerDao.findById(2);
         seller.setName("Ningning");
         sellerDao.update(seller);
-        System.out.println("Uppdate complete");
+        System.out.println("Update complete");
 
         System.out.println("\n=== TEST 6: seller delete ===");
         System.out.println("Enter id for delete test: ");
